@@ -1,0 +1,18 @@
+{
+  "name": "chelyn",
+  "version": "1.0.0",
+  "description": "CHELYN - ultra-light WhatsApp status auto-viewer",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.23",
+    "pino": "9.5.0"
+  }
+}
